@@ -1,0 +1,93 @@
+/**, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }*/
+
+
+
+
+
+body { font-family: sans-serif; }
+a { text-decoration: underline; }
+ul { font-weight: bold; }
+p{  
+	color:green;
+	margin-bottom:1.25em;
+}
+
+h2,h3 { margin:none;}
+h6{ margin-bottom: 20px;}
+
+#pagetitle {
+  font-style: italic;
+  font-family: cursive;
+}
+
+.special {
+  color: plum;
+  font-family: cursive;
+}
+
+div.title-desc {
+	padding: 50px;
+	border: 5px solid red;
+}
+
+
+div.links {
+	padding:10px 20px 10px 20px;
+	border: 5px solid black;
+}
+
+
+div.recent-blogs {
+	margin-right: 25%;
+	border: 5px solid blue;
+}
+
+div.blog {
+	padding: 40px 20px 40px 20px;
+	border: 5px solid green;
+}
+
+div.first {
+}
+
+div.second {
+}
+
+div.third {
+}
+
+div.forth {
+}
+
+div.fifth {
+}
+
+img.blogimage {
+	border: 2px solid #d3d3d3;
+	border-radius: 25px;
+}
+
+img.first {
+	margin: 0px 0px 0px 20px;
+}
+
+img.second {
+	margin: 0px 20px 0px 0px;
+}
+
+img.third {
+	margin: 0px 0px 0px 20px;
+}
+
+img.forth {
+	margin: 0px 20px 0px 0px;
+}
+
+img.fifth {
+	margin: 0px 0px 0px 20px;
+}
+
+
+
