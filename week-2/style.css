@@ -1,64 +1,116 @@
-/**, *:before, *:after {
+*, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }*/
+ }
 
 
 
-
-
-body { font-family: sans-serif; }
-a { text-decoration: underline; }
-ul { font-weight: bold; }
-p{  
-	color:green;
-	margin-bottom:1.25em;
+body { 
+	background-color: gainsboro;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16;
+	font-weight: 200;
+	line-height: 1.6;
+	margin: inherit;
 }
 
-h2,h3 { margin:none;}
-h6{ margin-bottom: 20px;}
+a { 
+	color: #2ba6cb;
+	text-decoration: none;
+ }
+
+a:hover { 
+	color: #2795b6;
+	text-decoration:underline;
+}
+
+ul { font-weight: bold; }
+
+p{  
+	color: black;
+	margin-bottom:1.25em;
+	margin-top: inherit;
+}
+
+h2,h3 { margin:inherit;}
+
+h2.blogh2 {
+	margin:20px;
+	line-height: 1;
+}
+
+h6{ 
+	margin-bottom: 20px;
+	margin-top: inherit;
+}
 
 #pagetitle {
-  font-style: italic;
-  font-family: cursive;
+	color: white;
+  	font-weight: 300;
+  	font-family: helvetica, arial, sans-serif;
+  	margin-bottom: inherit;
+}
+
+#linktitle {
+	color: white;
+	letter-spacing: 1px;
 }
 
 .special {
-  color: plum;
-  font-family: cursive;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
 }
 
+ul.sidelinks {
+	color: white;
+	font-size: 14px;
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+
 div.title-desc {
+	height: 320px;
+	width: 100%;
 	padding: 50px;
-	border: 5px solid red;
+	background-image: url('http://placekitten.com/g/1400/800');
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;	
 }
 
 
 div.links {
+	float: right;
+	background-color: black;
 	padding:10px 20px 10px 20px;
-	border: 5px solid black;
+	width: 25%;
 }
 
 
 div.recent-blogs {
+	background-color: white;
+	border: thin solid #D3D3D3 ;
 	margin-right: 25%;
-	border: 5px solid blue;
+	width: 75%;
 }
 
 div.blog {
-	padding: 40px 20px 40px 20px;
-	border: 5px solid green;
+	padding: 40px 20px 80px 20px;
+	border: thin solid #D3D3D3;
 }
 
 div.first {
 }
 
 div.second {
+	background-color: #f0f0f0;
 }
 
 div.third {
 }
 
 div.forth {
+	background-color: #f0f0f0;
 }
 
 div.fifth {
@@ -67,27 +119,34 @@ div.fifth {
 img.blogimage {
 	border: 2px solid #d3d3d3;
 	border-radius: 25px;
+
 }
 
 img.first {
+	float: right;
 	margin: 0px 0px 0px 20px;
 }
 
 img.second {
+	float: left;
 	margin: 0px 20px 0px 0px;
 }
 
 img.third {
-	margin: 0px 0px 0px 20px;
+	float: right;
+	margin: 0px 0px 20px 20px;
 }
 
 img.forth {
+	float: left;
 	margin: 0px 20px 0px 0px;
 }
 
 img.fifth {
+	float: right;
 	margin: 0px 0px 0px 20px;
 }
+
 
 
 
