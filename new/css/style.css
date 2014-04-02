@@ -191,9 +191,12 @@ h1 {
 }
 .casestudy-slideshow-caption h1 {
     line-height: 1.14;
+    display: none;
 }
 .casestudy-slideshow-caption p {
-    width: 80%}
+    width: 80%;
+    display: none;
+}
 .intro-cover-photo-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
